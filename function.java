@@ -1,9 +1,20 @@
 import java.util.Scanner;
 
 public class function{
-    public static int Sum(int a,int b){
+    public static int Sum(int a,int b)//parameters
+    {
         int sum=a+b;
        return sum;
+        
+
+    }
+    public static void Swap(int a,int b)//parameters
+    {
+          int temp = a;
+          a=b;
+          b=temp;
+          System.out.println(+a);
+          System.out.println(+b);
         
 
     }
@@ -13,8 +24,12 @@ public class function{
         int a = sc.nextInt();
         System.out.println("Enter the value of b:");
         int b = sc.nextInt();
-        int sum = Sum(a, b);
+        int sum = Sum(a, b);//arguments
         System.out.println("sum of a and b is:" +sum);
+        
+        Swap(5,7);
+
+
 
         
     }
