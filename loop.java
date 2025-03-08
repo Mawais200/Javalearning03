@@ -17,8 +17,10 @@ public class loop {
        // Break and Continues Statment
        for(int i=1; i<=10; i++){
         if(i==4){
+            System.out.println(i);
             break;
         }
+        System.out.println("i am out of loop ");
        }
     }
 }
