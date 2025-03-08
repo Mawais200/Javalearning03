@@ -14,5 +14,11 @@ public class loop {
         System.out.print(lastdigit);
         number=number/10;
        }
+       // Break and Continues Statment
+       for(int i=1; i<=10; i++){
+        if(i==4){
+            break;
+        }
+       }
     }
 }
