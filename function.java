@@ -20,6 +20,7 @@ public class function{
         
 
     }
+    // find factorial of a number
     public static int factorial(int n){
         int f=1;
         for (int i =1;i<=n; i++){
@@ -27,6 +28,18 @@ public class function{
            System.out.println(f);
         }
         return f;
+    }
+    // find wheather number is prime or not
+    public static boolean isPrime(int n){
+       boolean isPrime =true;
+       for(int i=2; i<n-1;i++){
+        if (n%i==0) 
+        {
+          isPrime=false;  
+        }
+       }
+       return isPrime;
+
     }
 
     public static void main(String[] args){
@@ -41,6 +54,8 @@ public class function{
         Swap(5,7);
         // factorail call function
         factorial(4);
+        //isPrime or not
+       System.out.println( isPrime(5));
 
 
 
